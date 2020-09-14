@@ -1,0 +1,24 @@
+#dashboardStudent {
+    background-color: #201f29;
+}
+
+.vc-bg-color-white {
+    background-color: #45435c;
+}
+
+.vc-left-menu-eba>* {
+    background-color: #45435c;
+}
+
+
+/* .vc-left-menu-eba {
+    background-color: #45435c;
+} */
+
+.leftMenuProfileScore {
+    background-color: #45435c;
+}
+
+* {
+    color: white;
+}

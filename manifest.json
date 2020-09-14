@@ -1,0 +1,13 @@
+{
+    "name": "Eba Dark Theme",
+    "version": "1.0",
+    "description": "Eba için koyu tema",
+    "permissions": ["declarativeContent", "storage"],
+    "content_scripts": [{
+        "matches": ["*://ders.eba.gov.tr/*"],
+        "js": ["content.js"],
+        "css": ["content-style.css"]
+
+    }],
+    "manifest_version": 2
+}

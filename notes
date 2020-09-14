@@ -1,0 +1,3 @@
+Background Element Id: componentMainSubView
+document.getElementById("dashboardStudent").style.backgroundColor = "#D93600";
+Original Background Color: #dce3e7
