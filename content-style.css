@@ -1,8 +1,13 @@
+* {
+    color: white;
+    user-select: unset;
+}
+
 #dashboardStudent {
     background-color: #201f29;
 }
 
-.vc-bg-color-white {
+.vc-bg-color-white>* {
     background-color: #45435c;
 }
 
@@ -10,15 +15,41 @@
     background-color: #45435c;
 }
 
-
-/* .vc-left-menu-eba {
-    background-color: #45435c;
-} */
+.vc-seperator-light-blue-gray {
+    padding: 0px;
+    position: absolute;
+}
 
 .leftMenuProfileScore {
     background-color: #45435c;
 }
 
-* {
-    color: white;
+.dashboard-assignment-widget-container {
+    background-color: #45435c;
+}
+
+.student-min-height {
+    min-height: 0px;
+    background-clip: border-box;
+}
+
+.card-shadow>* {
+    box-shadow: #000000;
+}
+
+.vc-activity-charts-widget {
+    padding: 0px;
+    background-clip: border-box;
+}
+
+.vc-bg-color-ghost-gray {
+    background-color: #363444;
+}
+
+.vc-background {
+    background-color: #201f29;
+}
+
+#vc-feedComposer .feed-composer-textarea:after {
+    visibility: hidden;
 }

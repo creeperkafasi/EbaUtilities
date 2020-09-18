@@ -7,7 +7,9 @@
         "matches": ["*://ders.eba.gov.tr/*"],
         "js": ["content.js"],
         "css": ["content-style.css"]
-
+    }, {
+        "matches": ["https://eba.gov.tr/#/anasayfa"],
+        "js": ["mainPageContent.js"]
     }],
     "manifest_version": 2
 }
